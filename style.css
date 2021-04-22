@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Roboto:wght@100&display=swap');
+
+
+
+body{
+    background-image: url('https://wallpapercave.com/wp/wp2411972.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Limelight', cursive;
+    font-weight: bold;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+}
+
+.quadrado p{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.botao{
+	
+    border-color: rgb(1, 184, 240);
+    background-color: white;
+    color:rgb(1, 184, 240);
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 3px 4px 0px 0px rgb(1, 184, 240);
+    margin-top: 10%;
+
+}
